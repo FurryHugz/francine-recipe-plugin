@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Francine’s Recipe Vault",
+  "name_for_model": "francines_recipe_vault",
+  "description_for_human": "Store and retrieve baking recipes from a Google Doc.",
+  "description_for_model": "Use this plugin to write and read recipes from a user’s Google Doc. You can add new recipes, list stored recipes, and retrieve details of past recipes.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://francine-s-recipe-plugin.vercel.app/",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://francine-s-recipe-plugin.vercel.app/logo.png",
+  "contact_email": "your-email@example.com",
+  "legal_info_url": "https://francine-s-recipe-plugin.vercel.app/legal"
+}
