@@ -5,9 +5,10 @@
     "version": "1.0.0"
   },
   "paths": {
-    "/": {
+    "/api": {
       "get": {
         "summary": "Test endpoint",
+        "description": "Checks if the plugin server is running.",
         "operationId": "testEndpoint",
         "responses": {
           "200": {
