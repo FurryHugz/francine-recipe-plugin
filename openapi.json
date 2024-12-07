@@ -1,0 +1,20 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Francine’s Recipe Vault API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Test endpoint",
+        "operationId": "testEndpoint",
+        "responses": {
+          "200": {
+            "description": "A simple response indicating the server is running"
+          }
+        }
+      }
+    }
+  }
+}
